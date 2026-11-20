@@ -64,6 +64,8 @@ Each target's 400 cells are emitted from the target line's real control cells (t
 - **The measured quantity matters.** Signed-rank, noise-unit (z) and knockdown-potency re-expressions of source effects all transferred worse than plain unit vectors. The direction signal is carried by a minority of large-effect genes.
 - **Validation without feedback.** With no score feedback in the final phase, we calibrated local folds (H1 thinned to official depth, HCT116, K562-Flex) against earlier official scores. Two local signals predicted official changes reliably: the sign of pseudobulk-MSE change on HCT116, and the sign of PDS change on H1. Gains that appeared only in the local DE metrics did not survive. We adopted a change only if it passed both signals, and froze the final model once a full ablation audit found 7 of 8 tuned components robust on a fold never used for tuning.
 
+Data provenance: see [DATA_SOURCES.md](DATA_SOURCES.md).
+
 ## 4. Repository layout
 
 ```
